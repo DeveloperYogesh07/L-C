@@ -1,0 +1,1 @@
+Employee is an object of the class Employee because it encapsulates both data and methods.
