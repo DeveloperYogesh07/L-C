@@ -1,11 +1,8 @@
 import unittest
 from io import StringIO
 from unittest.mock import patch
-from diviser_match import (
-    count_total_divisors,
-    count_adjacent_numbers_with_equal_divisors,
-)
-
+from divisor_utils import count_total_divisors
+from adjacent_checker import count_adjacent_numbers_with_equal_divisors
 
 class TestDivisorSolution(unittest.TestCase):
 

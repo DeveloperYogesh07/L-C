@@ -1,7 +1,7 @@
 import requests
 from model.geo_coordinates import GeoCoordinates
 from service.geocoding_service import GeocodingService
-from config import GEOCODE_MAPS_API_KEY
+from geo_console_app.config import GEOCODE_MAPS_API_KEY
 
 
 class GoogleGeocodingService(GeocodingService):
