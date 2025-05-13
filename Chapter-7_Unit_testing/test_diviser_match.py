@@ -18,11 +18,11 @@ class TestDivisorSolution(unittest.TestCase):
         self.assertEqual(count_total_divisors(12), 6)
         self.assertEqual(count_total_divisors(36), 9)
 
-        # Test with a perfect square (divisors include sqrt(n) counted once)
+        # Test with a perfect square 
         self.assertEqual(count_total_divisors(9), 3)
         self.assertEqual(count_total_divisors(25), 3)
 
-        # Test with a prime number (only 2 divisors: 1 and itself)
+        # Test with a prime number
         self.assertEqual(count_total_divisors(17), 2)
         self.assertEqual(count_total_divisors(23), 2)
 
